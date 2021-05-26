@@ -1,6 +1,6 @@
 import turtle
 
-sides = eval(input("Enter a number of sides between 2 and 6: "))
+sides = eval(turtle.textinput("Sides", "Enter the number of sides"))
 print(sides)
 
 t = turtle.Pen()
