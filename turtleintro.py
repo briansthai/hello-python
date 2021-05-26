@@ -1,5 +1,6 @@
 import turtle
 t = turtle.Pen()
-for x in range(1,500,4):
+t.pencolor("blue")
+for x in range(1,600,10):
     t.circle(x)
     t.left(91)
